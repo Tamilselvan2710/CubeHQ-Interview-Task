@@ -1077,6 +1077,10 @@ span.unchecked {
     margin-bottom: 32px;
 }
 
+.footer-links a:hover {
+    font-weight: bold;
+}
+
 .social-links {
     display: flex;
     gap: 20px;
@@ -1099,6 +1103,10 @@ span.unchecked {
     line-height: 150%;
     letter-spacing: 0;
     opacity: 0.9;
+}
+
+.social-links a:hover {
+    font-weight: bold;
 }
 
 .footer-links ul {
