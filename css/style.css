@@ -273,7 +273,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
-    align-items: center;
 }
 
 .gtg-gallery {
@@ -1529,7 +1528,7 @@ span.unchecked {
 .production-section .gtg-gallery-stage {
     position: relative;
     aspect-ratio: 1 / 1.2;
-    max-height: 520px;
+    max-height: 672px;
     overflow: hidden;
 }
 
@@ -1577,19 +1576,19 @@ span.unchecked {
     .production-section .gtg-gallery-stage {
         position: relative;
         aspect-ratio: 0.6 / 1.2;
-        max-height: 520px;
+        max-height: 672px;
         overflow: hidden;
     }
 
-    /* .gtg-arrow-left { 
+    .gtg-arrow-left { 
         left: 16px; 
     }
     .gtg-arrow-right { 
         right: 16px; 
-    } */
+    }
 
     .gtg-dots {
-        bottom: 25px;
+        bottom: 30px;
     }
 
     .gtg-thumbs {
