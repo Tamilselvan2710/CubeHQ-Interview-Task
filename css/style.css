@@ -1350,6 +1350,15 @@ span.unchecked {
         font-size: 24px;
     }
 
+    .hero {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .stat strong {
+        font-size: 56px;
+    }
+
     .badge {
         font-size: 13px;
     }
