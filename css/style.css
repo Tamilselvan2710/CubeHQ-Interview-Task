@@ -325,7 +325,7 @@ body {
 
 .gtg-dots {
     position: absolute;
-    bottom: 35px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -538,6 +538,12 @@ input[type="radio"]:checked {
     background: #F9F9F9;
     padding: 12px;
     cursor: pointer;
+}
+
+.gtg-fragrance-input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .gtg-fragrance-img {
@@ -1571,7 +1577,7 @@ span.unchecked {
     .production-section .gtg-gallery-stage {
         position: relative;
         aspect-ratio: 0.6 / 1.2;
-        max-height: 600px;
+        max-height: 520px;
         overflow: hidden;
     }
 
@@ -1583,7 +1589,7 @@ span.unchecked {
     } */
 
     .gtg-dots {
-        bottom: 30px;
+        bottom: 25px;
     }
 
     .gtg-thumbs {
